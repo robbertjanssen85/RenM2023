@@ -8,10 +8,10 @@
     >
       <div>
         <p>
-          We gaan trouwen in de achtertuin van de oude sluiswachterswoning
-          op het eiland Beneden Sas, gelegen aan de benedenloop van de Steenbergschse Vliet.
+          We gaan trouwen in Vlaardingen bij De Vreemde Vogel.
+       
         </p>
-        <p><b>Beneden Sas</b></p>
+        <p><b>De Vreemde Vogel</b></p>
         <p>
           Het gehele programma, behalve het feest, vindt plaats op Beneden Sas!
         </p>

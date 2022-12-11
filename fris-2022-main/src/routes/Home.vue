@@ -7,14 +7,14 @@
     >
       <div>
         <p>
-          Op <b>3 september 2022</b> gaan wij trouwen, en we willen graag dat
+          Op <b>26 mei 2023</b> gaan wij trouwen, en we willen graag dat
           {{plural ? 'jullie' : 'jij'}} erbij {{plural ? 'zijn' : 'bent'}}!
         </p>
         <p>
-          Omdat het al 2022 is krijg je alle informatie en deze uitnodiging
+          Omdat het al 2023 is krijg je alle informatie en deze uitnodiging
           digitaal. We hebben een paar vragen voor je, maar eerst het programma!
         </p>
-        <p>Chris &amp; Fran</p>
+        <p>Marjolein &amp; Robbert</p>
       </div>
     </Card>
   </div>
