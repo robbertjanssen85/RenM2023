@@ -2,7 +2,7 @@
   <div
     class="circle"
     :style="{
-      backgroundImage: `url('${require('../assets/fris/' + image + '.jpg')}')`
+      backgroundImage: `url('${require('../assets/renm/' + image + '.jpg')}')`
     }">
   </div>
 </template>
