@@ -16,7 +16,7 @@
           <div class="info" v-html="item.info"></div>
 
         </div>
-        <p class="label">4 september 2022</p>
+        <p class="label">26 mei 2022</p>
         <div class="item">
           <span class="time">10:00 - 11:00</span>
           <span class="text">Ontbijt met verse jus, veel koffie en croissantjes</span>
