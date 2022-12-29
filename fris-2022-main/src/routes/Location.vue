@@ -13,38 +13,29 @@
         </p>
         <p><b>De Vreemde Vogel</b></p>
         <p>
-          Het gehele programma, behalve het feest, vindt plaats op Beneden Sas!
+          Het gehele programma inclusief de ceremonie vindt plaats bij De Vreemde Vogel!
         </p>
         <p>
-          Kom je per auto, dan is dit het adres en kun je hier parkeren:<br>
-          <a href="https://goo.gl/maps/6uwoKtdhzBvzz6Mo9" target="_blank">Benedensasweg 2-4, 4655 ST De Heen<br>(Google Maps)</a><br>
+          We zijn al jaren fan van de locatie. We hebben er vaak gelunched en de kinderen kunnen er lekker spelen in de speeltuin en naar de boerderijbeesten kijken. 
+          </p>
+          <p>Er zijn ook wat slaapplaatsen/hotelkamers beschikbaar. En voor de avonturiers: 10 mensen mogen ook lekker kamperen in een tentje</a>
+          </p>
+          
+        </p>
+        <p><b>Bereikbaarbaarheid De Vreemde Vogel</b></p>
+        Het gehele programma inclusief de ceremoie vindt plaats bij De Vreemde Vogel!
+        </p>
+        <br></br>
+        <p>
+          Kom je per auto, dan is dit het adres en kun je parkeren op het terrein:<br>
+          <a href="https://goo.gl/maps/eTCoMwNnuz9fpZpH8" target="_blank">Van Baerlestraat 252, 3132 EK Vlaardingen<br>(Google Maps)</a><br>
         </p>
         <p>
-          Kom je per boot, dan kun je hier aanmeren en overnachten:<br>
-          <a href="https://webapp.navionics.com/#boating@13&key=shbzHag~X" target="_blank">WSV Volkerak<br>(Navionics)</a>
-        </p>
-        <p>
-          Kom je met het OV dan staat je enigszins een uitdaging te wachten. Vraag of iemand
+   
+          Kom je met het OV dan staat je enigszins een uitdaging te wachten. Er stopt een metro op loopafstand bij Vlaardingen-West. NS stations zitten niet in de buurt. Vraag of iemand
           je kan ophalen, bijvoorbeeld hier:<br>
           <a href="https://goo.gl/maps/ECB55QNWhxTH8SZJ7" target="_blank">Bushalte Provincialeweg, De Heen<br>(Google Maps)</a>
         </p>
-        <p><b>Akkermans</b></p>
-        <p>
-          Voor het feest stappen we 5 minuten op de fiets naar Akkermans (Leisure &amp; Golf), waar we herrie
-          mogen maken ;).
-        </p>
-        <p>
-          Aan het eind van het feest fietsen we terug en overnachten we bij
-          Beneden Sas.
-        </p>
-        <p>
-          Het adres van Akkermans is:<br>
-          <a href="https://goo.gl/maps/GH3wqdp5v1S4SuXv8" target="_blank">Heense Molenweg 23, 4655 TB De Heen<br>(Google Maps)</a>
-        </p>
-        <p><b>
-          Let op: Beneden Sas ligt in een natuurgebied en is daarom een stiltegebied.
-          Alleen tijdens de ceremonie mogen we - bij uitzondering - versterkt geluid gebruiken!
-        </b></p>
       </div>
     </Card>
   </div>
