@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <Profile image="5" />
+    <Profile image="16" />
     <Card
       title="Dankjewel"
       :prevButton="prevButton"

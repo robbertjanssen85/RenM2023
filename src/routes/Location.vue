@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <Profile image="4" />
+    <Profile image="3" />
     <Card
       title="Locatie"
       :button="button"
