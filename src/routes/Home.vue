@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div v-if="invite" class="container">
     <Profile image="1" />
     <Card
       title="Welkom!"
@@ -36,6 +36,7 @@ export default {
   },
   data() {
     return {
+      invite: this.$root.query.invite, // To make the page crash without query param
       button: {
         title: 'Bekijk het programma',
         page: '/program'
