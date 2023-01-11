@@ -2,13 +2,13 @@
   <div class="container">
     <Profile image="1" />
     <Card
-      :title="`Hoi ${this.$root.query.name}`"
+      :title="Welkom"
       :button="button"
     >
       <div>
         <p>
           Op <b>26 mei 2023</b> gaan wij trouwen, en we willen graag dat
-          {{plural ? 'jullie' : 'jij'}} erbij {{plural ? 'zijn' : 'bent'}}!
+          jullie erbij zijn!
         </p>
         <p>
           Omdat het al 2023 is krijg je alle informatie en deze uitnodiging
@@ -36,7 +36,6 @@ export default {
   },
   data() {
     return {
-      plural: this.$root.query.name.includes('&'),
       button: {
         title: 'Bekijk het programma',
         page: '/program'
