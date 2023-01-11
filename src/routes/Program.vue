@@ -7,16 +7,26 @@
       :prevButton="prevButton"
     >
       <div class="program">
-        <p><b>3 september 2022</b></p>
-        <div class="item-group" v-for="item of program" :key="item.time">
-          <div class="item">
-            <span class="time">{{item.time}}</span>
-            <span class="text">{{item.text}}</span>
+        <p><b>26 mei 2023</b></p>
+        <div v-if="invite === 'D'">
+          <div class="item-group" v-for="item of day" :key="item.time">
+            <div class="item">
+              <span class="time">{{item.time}}</span>
+              <span class="text">{{item.text}}</span>
+            </div>
+            <div class="info" v-html="item.info"></div>
           </div>
-          <div class="info" v-html="item.info"></div>
-
         </div>
-        <p class="label">26 mei 2022</p>
+        <div v-else>
+          <div class="item-group" v-for="item of evening" :key="item.time">
+            <div class="item">
+              <span class="time">{{item.time}}</span>
+              <span class="text">{{item.text}}</span>
+            </div>
+            <div class="info" v-html="item.info"></div>
+          </div>
+        </div>
+        <p class="label">27 mei 2023</p>
         <div class="item">
           <span class="time">10:00 - 11:00</span>
           <span class="text">Ontbijt met verse jus, veel koffie en croissantjes</span>
@@ -49,7 +59,8 @@ export default {
   },
   data() {
     return {
-      program: [
+      invite: this.$root.query.invite,
+      day: [
         {
           time: '14:00',
           text: 'Ontvangst',
@@ -72,6 +83,13 @@ export default {
                 'even contact op met de ceremoniemeesters!'
         }
       ],
+      evening: [{
+        time: '22:00 - 01:00',
+        text: 'Feest',
+        info: 'Superleuk als je een speech wilt geven, een verhaal wilt vertellen, ' +
+              'of wat dan ook, het past vast ergens in het programma. Neem hierover ' +
+              'even contact op met de ceremoniemeesters!'
+      }],
       button: {
         title: 'Bekijk de locatie',
         page: '/location'

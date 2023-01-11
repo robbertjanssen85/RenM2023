@@ -2,7 +2,7 @@
   <div class="container">
     <Profile image="1" />
     <Card
-      :title="Welkom"
+      title="Welkom!"
       :button="button"
     >
       <div>
