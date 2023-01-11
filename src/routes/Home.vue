@@ -48,7 +48,7 @@ export default {
 
 <style>
 .container {
-  background-image: url('~@/assets/benedensas.jpg');
+  background-image: url('~@/assets/VV1.jpg');
   background-size: cover;
   height: auto;
   min-height: 100%;
