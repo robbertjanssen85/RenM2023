@@ -37,8 +37,9 @@
         </p>
         <p>
           Kom je met het OV dan staat je enigszins een uitdaging te wachten. Er stopt een metro op loopafstand bij Vlaardingen-West. 
-          <br>Treinstations zitten helaas niet in de buurt. Een OV-fiets vanaf Rotterdam Centraal is een prima workout of vraag iemand om je op te halen, vanaf hier:<br>
+          <p>Treinstations zitten helaas niet in de buurt. Een OV-fiets vanaf Rotterdam Centraal is een prima workout of vraag iemand om je op te halen, vanaf hier:<br>
           <a href="https://goo.gl/maps/afSPWoYxyGSuRtxA6" target="_blank">Rotterdam Centraal<br>(Google Maps)</a>
+          </p>
         </p>
       </div>
     </Card>
