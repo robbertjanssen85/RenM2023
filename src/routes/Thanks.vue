@@ -6,7 +6,7 @@
       :prevButton="prevButton"
     >
       <p>Het is nog even weg, maar wij hebben er al megaveel zin in!</p>
-      <p>Liefs,<br/>Fran, Chris &amp; the little one</p>
+      <p>Liefs,<br/>Marjolein &amp; Robbert</p>
     </Card>
   </div>
 </template>
