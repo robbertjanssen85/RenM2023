@@ -44,7 +44,7 @@ export default {
         allergies_description: this.$props.rsvp.allergies_description,
         questions_or_remarks: this.$props.questions
       }
-      return axios.post('https://ap.robbertenmarjolein.nl/responses', payload)
+      return axios.post('https://api.robbertenmarjolein.nl/responses', payload)
     },
     async routeTo(page) {
       if (!this.$props.adults || page !== '/thanks') {
