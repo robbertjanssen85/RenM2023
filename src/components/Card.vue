@@ -73,7 +73,7 @@ export default {
 .card {
   background-color: #FFFFFF;
   border-radius: 10px;
-  max-width: 500px;
+  max-width: 550px;
   margin: 0 auto 80px auto;
   padding: 80px 50px 50px 50px;
   display: flex;

@@ -40,21 +40,17 @@
           </div>
           <div v-if="this.$root.query.invite === 'D'">
             <div class="toggle-group">
-              <p>15:30 - 18:00&nbsp;&nbsp;&nbsp;Ceremonie + receptie</p>
-              <Toggle class="form-toggle" v-model="rsvp.attendsCeremony" />
-            </div>
-            <div class="toggle-group">
-              <p>18:00 - 21:00&nbsp;&nbsp;&nbsp;Diner</p>
+              <p>15:30 - 20:30&nbsp;&nbsp;&nbsp;Ceremonie en aansluitende borrel + diner</p>
               <Toggle class="form-toggle" v-model="rsvp.attendsDiner" />
             </div>
           </div>
           <div>
             <div class="toggle-group">
-              <p>22:00 - 01:00&nbsp;&nbsp;&nbsp;Feest</p>
+              <p>20:30 - 00:30&nbsp;&nbsp;&nbsp;Feest</p>
               <Toggle class="form-toggle" v-model="rsvp.attendsParty" />
             </div>
             <div class="toggle-group">
-              <p>10:00 - 11:00&nbsp;&nbsp;&nbsp;Ontbijt</p>
+              <p>10:00 - 11:00&nbsp;&nbsp;&nbsp;Gezamelijk ontbijt de volgende dag</p>
               <Toggle class="form-toggle" v-model="rsvp.attendsBreakfast" />
             </div>
           </div>
