@@ -18,7 +18,7 @@
         <p>
           We zijn al jaren fan van de locatie. We hebben er vaak gelunched en de kinderen kunnen er lekker spelen in de speeltuin en naar de boerderijbeesten kijken. 
           </p>
-          <p>Er zijn ook wat slaapplaatsen/hotelkamers beschikbaar. En voor de avonturiers: 10 mensen mogen ook lekker kamperen in een tentje</a>
+          <p>Er zijn ook wat slaapplaatsen/hotelkamers beschikbaar. En voor de avonturiers: 10 mensen mogen ook lekker kamperen in een tentje
           </p>
           
         
