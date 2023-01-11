@@ -41,43 +41,43 @@
           <div v-if="this.$root.query.invite === 'D'">
             <div class="toggle-group">
               <p>15:30 - 20:30&nbsp;&nbsp;&nbsp;Ceremonie en aansluitende borrel + diner</p>
-              <Toggle class="form-toggle" v-model="rsvp.attendsDiner" />
+              <Toggle class="form-toggle" v-model="rsvp.attends_day" />
             </div>
           </div>
           <div>
             <div class="toggle-group">
               <p>20:30 - 00:30&nbsp;&nbsp;&nbsp;Feest</p>
-              <Toggle class="form-toggle" v-model="rsvp.attendsParty" />
+              <Toggle class="form-toggle" v-model="rsvp.attends_party" />
             </div>
             <div class="toggle-group">
               <p>10:00 - 11:00&nbsp;&nbsp;&nbsp;Gezamelijk ontbijt de volgende dag</p>
-              <Toggle class="form-toggle" v-model="rsvp.attendsBreakfast" />
+              <Toggle class="form-toggle" v-model="rsvp.attends_breakfast" />
             </div>
           </div>
-          <div v-if="rsvp.attendsDiner" style="display:flex;align-items:center;">
+          <div v-if="rsvp.attends_day" style="display:flex;align-items:center;">
             <p style="max-width: 90%">Het diner is grotendeels vegetarisch. Heb je allergieēn of dieetwensen waar we rekening mee moeten houden?</p>
-            <Toggle class="form-toggle" v-model="rsvp.hasAllergies" />
+            <Toggle class="form-toggle" v-model="rsvp.has_allergies" />
           </div>
-          <div v-if="rsvp.hasAllergies">
-            <textarea rows="2" v-model="rsvp.allergyDescription"></textarea>
+          <div v-if="rsvp.has_allergies">
+            <textarea rows="2" v-model="rsvp.allergy_description"></textarea>
           </div>
           <div>
             <p><b>Blijf je overnachten?</b></p>
             <div class="radio-button-group">
               <label>
-                <input type="radio" name="sleeping" value="vv-hotel-interesse" v-model="rsvp.sleepsOver">
+                <input type="radio" name="sleeping" value="vv-hotel-interesse" v-model="rsvp.sleeping">
                 <span>Ja, wij hebben interesse in een slaapplek op het terrein van de Vreemde Vogel of het nabije Ibis hotel</span>
               </label>
               <label>
-                <input type="radio" name="sleeping" value="tent-interesse" v-model="rsvp.sleepsOver">
+                <input type="radio" name="sleeping" value="tent-interesse" v-model="rsvp.sleeping">
                 <span>Ja, wij slapen graag in een tentje</span>
               </label>
               <label>
-                <input type="radio" name="sleeping" value="zelf-regelen" v-model="rsvp.sleepsOver">
+                <input type="radio" name="sleeping" value="zelf-regelen" v-model="rsvp.sleeping">
                 <span>Ja, maar ik regel zelf een andere slaapplek</span>
               </label>
               <label>
-                <input type="radio" name="sleeping" value="nee" v-model="rsvp.sleepsOver">
+                <input type="radio" name="sleeping" value="nee" v-model="rsvp.sleeping">
                 <span>Nee</span>
               </label>
             </div>
@@ -122,14 +122,12 @@ export default {
         name: null
       }],
       rsvp: {
-        attendsCeremony: false,
-        attendsDiner: false,
-        attendsParty: false,
-        attendsBreakfast: false,
-        needsBike: false,
-        sleepsOver: 'camping',
-        hasAllergies: false,
-        allergyDescription: ''
+        attends_day: false,
+        attends_party: false,
+        attends_breakfast: false,
+        sleeping: 'no',
+        has_allergies: false,
+        allergy_description: ''
       },
       button: {
         title: 'Opsturen',

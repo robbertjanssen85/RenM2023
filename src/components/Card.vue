@@ -21,7 +21,9 @@ export default {
     title: String,
     button: Object,
     prevButton: Object,
-    people: Array,
+    adults: Array,
+    children: Array,
+    rsvp: Object,
     questions: String,
   },
   data() {
@@ -30,38 +32,33 @@ export default {
     }
   },
   methods: {
-    postDatabase(person, index) {
-      // Convert to snakecase
-      const payload = {}
-      for (const key in person) {
-        const snake_key = key.replace(/([A-Z])/g, "_$1").toLowerCase()
-        payload[snake_key] = person[key]
-        payload['group_name'] = this.$root.query.name
-        if (index === 0 && this.$props.questions) {
-          payload['questions_or_remarks'] = this.$props.questions
-        }
+    postDatabase() {
+      const payload = {
+        adults: this.$props.adults.map(x => x.name),
+        children: this.$props.children.map(x => x.name),
+        attends_day: this.$props.rsvp.attends_day,
+        attends_party: this.$props.rsvp.attends_party,
+        attends_breakfast: this.$props.rsvp.attends_breakfast,
+        sleeping: this.$props.rsvp.sleeping,
+        allergies: this.$props.rsvp.allergies,
+        allergies_description: this.$props.rsvp.allergies_description,
+        questions_or_remarks: this.$props.questions
       }
-      return axios.post('https://api.christian.surf/responses', payload)
+      return axios.post('http://localhost:3000/responses', payload)
     },
     async routeTo(page) {
-      if (!this.$props.people || page !== '/thanks') {
+      if (!this.$props.adults || page !== '/thanks') {
         this.$root.currentRoute = page
       } else {
-        this.loading = true
-        const promises = []
-        for (const [index, person] of this.$props.people.entries()) {
-          promises.push(this.postDatabase(person, index))
+        try {
+          this.loading = true
+          await this.postDatabase()
+          this.loading = false
+          this.$root.currentRoute = page
+        } catch (e) {
+          this.loading = false
+          window.alert('Sorry, het ging verschrikkelijk mis met het opsturen van deze van deze informatie. Controleer of je alle velden hebt ingevuld, probeer het nog eens, of stuur ons een mailtje!')
         }
-        // Wait for all promises to resolve and redirect
-        Promise.all(promises)
-          .then(() => {
-            this.loading = false
-            this.$root.currentRoute = page
-          })
-          .catch(() => {
-            this.loading = false
-            window.alert('Sorry, het ging verschrikkelijk mis met het opsturen van deze van deze informatie. Controleer of je alle velden hebt ingevuld, probeer het nog eens, of stuur ons een mailtje!')
-          })
       }
     }
   }
