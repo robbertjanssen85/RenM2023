@@ -21,11 +21,11 @@
           <p>Er zijn ook wat slaapplaatsen/hotelkamers beschikbaar. En voor de avonturiers: 10 mensen mogen ook lekker kamperen in een tentje</a>
           </p>
           
-        </p>
+        
         <p><b>Bereikbaarbaarheid De Vreemde Vogel</b></p>
-        Het gehele programma inclusief de ceremoie vindt plaats bij De Vreemde Vogel!
-        </p>
-        <br></br>
+        <p>Het gehele programma inclusief de ceremoie vindt plaats bij De Vreemde Vogel!</p>
+        
+        
         <p>
           Kom je per auto, dan is dit het adres en kun je parkeren op het terrein:<br>
           <a href="https://goo.gl/maps/eTCoMwNnuz9fpZpH8" target="_blank">Van Baerlestraat 252, 3132 EK Vlaardingen<br>(Google Maps)</a><br>
