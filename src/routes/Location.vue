@@ -8,7 +8,7 @@
     >
       <div>
         <p>
-          We gaan trouwen in Vlaardingen bij De Vreemde Vogel.
+          We gaan trouwen bij de Vreemde Vogel in Vlaardingen.
         </p>
         <p><b>De Vreemde Vogel</b></p>
         <p>
@@ -18,15 +18,17 @@
           We zijn al jaren fan van de locatie. We hebben er geregeld gelunched en de kinderen kunnen er lekker spelen in de speeltuin en naar de boerderijbeesten kijken. 
         </p>
         <p>
-          Er zijn ook wat slaapplaatsen/hotelkamers beschikbaar. En voor de avonturiers: 10 mensen mogen ook lekker kamperen in een tentje
+          De Vreemde Vogel is ook een buitenhotel met 10 bijzondere kamers zoals vogelhuisjes, een raket en sleurhutten op hoogte. En voor de avonturiers: 10 mensen kunnen ook lekker kamperen in een tentje - pure festival vibes!
         </p>
-        
+        <p>
+          Tijdens de registratie kun je aangeven of je interesse hebt in een overnachting. Naast het Buitenhotel van de Vreemde Vogel kun je ook terecht met een 'package-deal' bij <a href="https://all.accor.com/hotel/1195/index.nl.shtml" target="_blank">Ibis Rotterdam-Vlaardingen</a>.
+        </p>
         <p>
           <img class="image" src="@/assets/VV4.jpg" alt="Vreemde Vogel"/>
         </p>
 
         <p><b>Bereikbaarbaarheid De Vreemde Vogel</b></p>
-        <p>Het gehele programma inclusief de ceremoie vindt plaats bij De Vreemde Vogel!</p>
+        
         
         
         <p>
@@ -34,7 +36,8 @@
           <a href="https://goo.gl/maps/eTCoMwNnuz9fpZpH8" target="_blank">Van Baerlestraat 252, 3132 EK Vlaardingen<br>(Google Maps)</a><br>
         </p>
         <p>
-          Kom je met het OV dan staat je enigszins een uitdaging te wachten. Er stopt een metro op loopafstand bij Vlaardingen-West. Treinstations zitten helaas niet in de buurt. Een OV-fiets vanaf Rotterdam Centraal is een prima aan te raden workout of vraag iemand of hij/zij je kan ophalen, vanaf hier:<br>
+          Kom je met het OV dan staat je enigszins een uitdaging te wachten. Er stopt een metro op loopafstand bij Vlaardingen-West. 
+          <br>Treinstations zitten helaas niet in de buurt. Een OV-fiets vanaf Rotterdam Centraal is een prima workout of vraag iemand om je op te halen, vanaf hier:<br>
           <a href="https://goo.gl/maps/afSPWoYxyGSuRtxA6" target="_blank">Rotterdam Centraal<br>(Google Maps)</a>
         </p>
       </div>
