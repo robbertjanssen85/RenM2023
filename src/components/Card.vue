@@ -40,8 +40,8 @@ export default {
         attends_party: this.$props.rsvp.attends_party,
         attends_breakfast: this.$props.rsvp.attends_breakfast,
         sleeping: this.$props.rsvp.sleeping,
-        allergies: this.$props.rsvp.allergies,
-        allergies_description: this.$props.rsvp.allergies_description,
+        allergies: this.$props.rsvp.has_allergies,
+        allergies_description: this.$props.rsvp.allergy_description,
         questions_or_remarks: this.$props.questions
       }
       return axios.post('https://api.robbertenmarjolein.nl/responses', payload)
