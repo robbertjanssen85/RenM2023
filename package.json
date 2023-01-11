@@ -6,7 +6,7 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "deploy": "npm run build && surge ./dist -d https://fris.christian.surf"
+    "deploy": "npm run build && surge ./dist -d https://robbertenmarjolein.nl"
   },
   "dependencies": {
     "@vueform/toggle": "^2.0.1",
