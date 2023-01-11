@@ -28,14 +28,14 @@
         </div>
         <p class="label">27 mei 2023</p>
         <div class="item">
-          <span class="time">10:00 - 11:00</span>
-          <span class="text">Ontbijt met verse jus, veel koffie en croissantjes</span>
+          <span class="time">09:30 - 11:00</span>
+          <span class="text">Ontbijt met verse jus, veel koffie en hopelijk croissantjes</span>
         </div>
         <p class="more-info">
           Dit zijn onze ceremoniemeesters:
           <ul>
-            <li>Jeroen van de Berge:<br><a href="tel:0683393621">06 83 39 36 21</a><br><a href="mailto:jcgvdb@gmail.com">jcgvdb@gmail.com</a></li>
-            <li>Gabriëla Ververs:<br><a href="tel:0634259606">06 36 31 83 76</a><br><a href="mailto:gabrielaververs@gmail.com">gabrielaververs@gmail.com</a></li>
+            <li>Marjoleine 't Hart:<br><a href="tel:0610921148">06 10 92 11 48</a><br><a href="mailto:marjoleinethart@gmail.com">marjoleinethart@gmail.com</a></li>
+            <li>Leanne Janssen:<br><a href="tel:0620722699">06 20 72 26 99</a><br><a href="mailto:leannejanssen@hotmail.com">leannejanssen@hotmail.com</a></li>
           </ul>
         </p>
       </div>
@@ -62,21 +62,21 @@ export default {
       invite: this.$root.query.invite,
       day: [
         {
-          time: '14:00',
+          time: '15:00',
           text: 'Ontvangst',
           info: 'Vanaf dit tijdstip ben je welkom op de trouwlocatie. Als je wilt ' +
                 'blijven kamperen dan is dit een goed moment om je tentje op te zetten.'
         }, {
-          time: '15:00 - 16:00',
+          time: '15:30 - 16:30',
           text: 'Ceremonie'
         }, {
-          time: '16:00 - 18:00',
-          text: 'Receptie'
+          time: '16:30 - 18:30',
+          text: 'Borrel'
         }, {
-          time: '18:00 - 21:00',
+          time: '18:30 - 20:30',
           text: 'Diner'
         }, {
-          time: '22:00 - 01:00',
+          time: '20:30 - 00:30',
           text: 'Feest',
           info: 'Superleuk als je een speech wilt geven, een verhaal wilt vertellen, ' +
                 'of wat dan ook, het past vast ergens in het programma. Neem hierover ' +
@@ -84,7 +84,7 @@ export default {
         }
       ],
       evening: [{
-        time: '22:00 - 01:00',
+        time: '20:30 - 00:30',
         text: 'Feest',
         info: 'Superleuk als je een speech wilt geven, een verhaal wilt vertellen, ' +
               'of wat dan ook, het past vast ergens in het programma. Neem hierover ' +

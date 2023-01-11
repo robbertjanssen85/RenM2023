@@ -15,14 +15,14 @@
           Het gehele programma inclusief de ceremonie vindt plaats bij De Vreemde Vogel!
         </p>
         <p>
-          We zijn al jaren fan van de locatie. We hebben er vaak gelunched en de kinderen kunnen er lekker spelen in de speeltuin en naar de boerderijbeesten kijken. 
+          We zijn al jaren fan van de locatie. We hebben er geregeld gelunched en de kinderen kunnen er lekker spelen in de speeltuin en naar de boerderijbeesten kijken. 
         </p>
         <p>
           Er zijn ook wat slaapplaatsen/hotelkamers beschikbaar. En voor de avonturiers: 10 mensen mogen ook lekker kamperen in een tentje
         </p>
         
         <p>
-          <img class="image" src="@/assets/benedensas.jpg" alt="Vreemde Vogel"/>
+          <img class="image" src="@/assets/VV4.jpg" alt="Vreemde Vogel"/>
         </p>
 
         <p><b>Bereikbaarbaarheid De Vreemde Vogel</b></p>
@@ -34,9 +34,8 @@
           <a href="https://goo.gl/maps/eTCoMwNnuz9fpZpH8" target="_blank">Van Baerlestraat 252, 3132 EK Vlaardingen<br>(Google Maps)</a><br>
         </p>
         <p>
-          Kom je met het OV dan staat je enigszins een uitdaging te wachten. Er stopt een metro op loopafstand bij Vlaardingen-West. NS stations zitten niet in de buurt. Vraag of iemand
-          je kan ophalen, bijvoorbeeld hier:<br>
-          <a href="https://goo.gl/maps/ECB55QNWhxTH8SZJ7" target="_blank">Bushalte Provincialeweg, De Heen<br>(Google Maps)</a>
+          Kom je met het OV dan staat je enigszins een uitdaging te wachten. Er stopt een metro op loopafstand bij Vlaardingen-West. Treinstations zitten helaas niet in de buurt. Een OV-fiets vanaf Rotterdam Centraal is een prima aan te raden workout of vraag iemand of hij/zij je kan ophalen, vanaf hier:<br>
+          <a href="https://goo.gl/maps/afSPWoYxyGSuRtxA6" target="_blank">Rotterdam Centraal<br>(Google Maps)</a>
         </p>
       </div>
     </Card>
