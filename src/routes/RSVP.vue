@@ -5,74 +5,83 @@
       title="RSVP"
       :button="button"
       :prevButton="prevButton"
-      :people="people"
+      :adults="adults"
+      :children="children"
+      :rsvp="rsvp"
       :questions="questions"
     >
       <div class="rsvp">
         <div class="question">
-          <p class="label">Met hoeveel mensen kom je?</p>
-          <input type="number" v-model="headcount" />
+          <p class="label">Met hoeveel volwassenen kom je?</p>
+          <input type="number" v-model="adultCount" />
+        </div>
+        <div class="question">
+          <p class="label">Met hoeveel kinderen kom je?</p>
+          <input type="number" v-model="childCount" />
         </div>
         <hr />
-        <div v-for="(person, index) in people" :key="index">
+        <div v-for="(adult, index) in adults" :key="index">
           <div class="question">
-            <p class="label"><b>Naam persoon #{{index + 1}}?</b></p>
-            <input v-model="person.name" />
+            <p class="label"><b>Naam volwassene #{{index + 1}}?</b></p>
+            <input v-model="adult.name" />
           </div>
+        </div>
+        <div v-if="childCount">
+          <div v-for="(child, index) in children" :key="index">
+            <div class="question">
+              <p class="label"><b>Naam kind #{{index + 1}}?</b></p>
+              <input v-model="child.name" />
+            </div>
+          </div>
+        </div>
+        <div>
           <div class="question">
-            <p class="label"><b>Waar ben je bij?</b></p>
+            <p class="label"><b>Waar zijn jullie bij?</b></p>
           </div>
-          <div>
+          <div v-if="this.$root.query.invite === 'D'">
             <div class="toggle-group">
-              <p>14:00 - 18:00&nbsp;&nbsp;&nbsp;Ceremonie + receptie</p>
-              <Toggle class="form-toggle" v-model="person.attendsCeremony" />
+              <p>15:30 - 18:00&nbsp;&nbsp;&nbsp;Ceremonie + receptie</p>
+              <Toggle class="form-toggle" v-model="rsvp.attendsCeremony" />
             </div>
             <div class="toggle-group">
               <p>18:00 - 21:00&nbsp;&nbsp;&nbsp;Diner</p>
-              <Toggle class="form-toggle" v-model="person.attendsDiner" />
+              <Toggle class="form-toggle" v-model="rsvp.attendsDiner" />
             </div>
+          </div>
+          <div>
             <div class="toggle-group">
               <p>22:00 - 01:00&nbsp;&nbsp;&nbsp;Feest</p>
-              <Toggle class="form-toggle" v-model="person.attendsParty" />
+              <Toggle class="form-toggle" v-model="rsvp.attendsParty" />
             </div>
             <div class="toggle-group">
               <p>10:00 - 11:00&nbsp;&nbsp;&nbsp;Ontbijt</p>
-              <Toggle class="form-toggle" v-model="person.attendsBreakfast" />
+              <Toggle class="form-toggle" v-model="rsvp.attendsBreakfast" />
             </div>
           </div>
-          <div v-if="person.attendsDiner" style="display:flex;align-items:center;">
-            <p style="max-width: 90%">Het diner is vegetarisch. Heb je allergiēn of dieetwensen waar we rekening mee moeten houden?</p>
-            <Toggle class="form-toggle" v-model="person.hasAllergies" />
+          <div v-if="rsvp.attendsDiner" style="display:flex;align-items:center;">
+            <p style="max-width: 90%">Het diner is grotendeels vegetarisch. Heb je allergieēn of dieetwensen waar we rekening mee moeten houden?</p>
+            <Toggle class="form-toggle" v-model="rsvp.hasAllergies" />
           </div>
-          <div v-if="person.hasAllergies">
-            <textarea rows="2" v-model="person.allergyDescription"></textarea>
-          </div>
-          <div>
-            <p><b>Heb je een fiets nodig om bij het feest te komen?</b></p>
-            <div class="radio-button-group">
-              <label>
-                <input type="radio" :name="`bike-${index}`" :value="false" v-model="person.needsBike">
-                <span>Nee, ik neem zelf een fiets mee of ga met eigen vervoer</span>
-              </label>
-              <label>
-                <input type="radio" :name="`bike-${index}`" :value="true" v-model="person.needsBike">
-                <span>Ja (dan huren we er 1 voor je)</span>
-              </label>
-            </div>
+          <div v-if="rsvp.hasAllergies">
+            <textarea rows="2" v-model="rsvp.allergyDescription"></textarea>
           </div>
           <div>
             <p><b>Blijf je overnachten?</b></p>
             <div class="radio-button-group">
               <label>
-                <input type="radio" :name="`sleeping-${index}`" value="camping" v-model="person.sleepsOver">
-                <span>Ja, ik neem een tent mee en blijf kamperen</span>
+                <input type="radio" name="sleeping" value="vv-hotel-interesse" v-model="rsvp.sleepsOver">
+                <span>Ja, wij hebben interesse in een slaapplek op het terrein van de Vreemde Vogel of het nabije Ibis hotel</span>
               </label>
               <label>
-                <input type="radio" :name="`sleeping-${index}`" value="hotel" v-model="person.sleepsOver">
+                <input type="radio" name="sleeping" value="tent-interesse" v-model="rsvp.sleepsOver">
+                <span>Ja, wij slapen graag in een tentje</span>
+              </label>
+              <label>
+                <input type="radio" name="sleeping" value="zelf-regelen" v-model="rsvp.sleepsOver">
                 <span>Ja, maar ik regel zelf een andere slaapplek</span>
               </label>
               <label>
-                <input type="radio" :name="`sleeping-${index}`" value="no" v-model="person.sleepsOver">
+                <input type="radio" name="sleeping" value="nee" v-model="rsvp.sleepsOver">
                 <span>Nee</span>
               </label>
             </div>
@@ -108,18 +117,24 @@ export default {
   },
   data() {
     return {
-      headcount: 1,
-      people: [{
-        name: null,
+      adultCount: 1,
+      childCount: 0,
+      adults: [{
+        name: null
+      }],
+      children: [{
+        name: null
+      }],
+      rsvp: {
         attendsCeremony: false,
         attendsDiner: false,
         attendsParty: false,
         attendsBreakfast: false,
-        hasAllergies: false,
-        allergyDescription: '',
         needsBike: false,
-        sleepsOver: 'camping'
-      }],
+        sleepsOver: 'camping',
+        hasAllergies: false,
+        allergyDescription: ''
+      },
       button: {
         title: 'Opsturen',
         page: '/thanks'
@@ -132,21 +147,23 @@ export default {
     }
   },
   watch: {
-    headcount(val) {
-      while (val < this.people.length && val >= 1) {
-        this.people.pop()
+    adultCount(val) {
+      while (val < this.adults.length && val >= 1) {
+        this.adults.pop()
       }
-      while (val > this.people.length) {
-        this.people.push({
-          name: null,
-          attendsCeremony: false,
-          attendsDiner: false,
-          attendsParty: false,
-          attendsBreakfast: false,
-          hasAllergies: false,
-          allergyDescription: '',
-          needsBike: false,
-          sleepsOver: 'camping'
+      while (val > this.adults.length) {
+        this.adults.push({
+          name: null
+        })
+      }
+    },
+    childCount(val) {
+      while (val < this.children.length && val >= 0) {
+        this.children.pop()
+      }
+      while (val > this.children.length) {
+        this.children.push({
+          name: null
         })
       }
     }
