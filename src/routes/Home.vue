@@ -13,11 +13,12 @@
         </p>
         <p>
           Omdat het al 2023 is krijg je alle informatie en deze uitnodiging
-          digitaal. Op deze site vind je info over het programmam, de locatie en de mogelijkheid om te RSVP'en. 
+          digitaal. Je vindt hier info over het programmam, de locatie, overnachtingsmogelijkheden en de mogelijkheid om te RSVP'en. 
         </p>
         <p>
           Marjolein en Robbert
         </p>
+        <br>
         <p>
           Om Project X te voorkomen, hebben we eerst deze vraag voor je:   
         </p>
