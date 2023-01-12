@@ -18,10 +18,10 @@
           We zijn al jaren fan van de locatie. We hebben er geregeld gelunched en de kinderen kunnen er lekker spelen in de speeltuin en naar de boerderijbeesten kijken. 
         </p>
         <p>
-          De Vreemde Vogel is ook een buitenhotel met 10 bijzondere kamers zoals vogelhuisjes, een raket en struisvogels. En voor de avonturiers: 10 mensen kunnen ook lekker kamperen in een tentje - pure festival vibes!
+          De Vreemde Vogel is ook een buitenhotel met 10 kamers zoals vogelhuisjes, een raket en struisvogels. En voor de avonturiers: 10 mensen kunnen ook lekker kamperen in een tentje - festival vibes!
         </p>
         <p>
-          Tijdens de registratie kun je aangeven of je interesse hebt in een overnachting. Wij verzamelen dat en kijken wat er mogelijk is in het Buitenhotel van de Vreemde Vogel en het nabije <a href="https://all.accor.com/hotel/1195/index.nl.shtml" target="_blank">Ibis Rotterdam-Vlaardingen</a>.
+          Tijdens de registratie kun je aangeven of je interesse hebt in een overnachting. Wij verzamelen dat en laten je weten wat er mogelijk is in het Buitenhotel van de Vreemde Vogel en het nabije <a href="https://all.accor.com/hotel/1195/index.nl.shtml" target="_blank">Ibis Rotterdam-Vlaardingen</a>.
         </p>
         <p>
           <img class="image" src="@/assets/VV4.jpg" alt="Vreemde Vogel"/>
