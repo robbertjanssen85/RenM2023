@@ -8,7 +8,7 @@
     >
       <div class="program">
         <p><b>26 mei 2023</b></p>
-        <div v-if="invite === 'D'">
+        <div v-if="dayGuest">
           <div class="item-group" v-for="item of day" :key="item.time">
             <div class="item">
               <span class="time">{{item.time}}</span>
@@ -59,7 +59,7 @@ export default {
   },
   data() {
     return {
-      invite: this.$root.query.invite,
+      dayGuest: window.location.hostname === 'robbertenmarjolein.nl',
       day: [
         {
           time: '15:00',

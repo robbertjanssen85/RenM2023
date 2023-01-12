@@ -2,6 +2,7 @@
   <div class="card">
     <h1>{{ title }}</h1>
     <slot></slot>
+    <div v-if="error"><p style="color:red;margin-bottom:0;">{{ error }}</p></div>
     <div class="button-group">
       <button class="button prev-button" v-if="prevButton" v-on:click="routeTo(prevButton.page)">{{ prevButton.title }}</button>
       <button class="button main-button" v-if="button && !loading" v-on:click="routeTo(button.page)">{{ button.title }}</button>
@@ -14,6 +15,7 @@
 
 <script>
 import axios from 'axios'
+import bcrypt from 'bcryptjs'
 
 export default {
   name: 'Card',
@@ -24,10 +26,12 @@ export default {
     adults: Array,
     children: Array,
     rsvp: Object,
+    password: String,
     questions: String,
   },
   data() {
     return {
+      error: null,
       loading: false
     }
   },
@@ -47,6 +51,21 @@ export default {
       return axios.post('https://api.robbertenmarjolein.nl/responses', payload)
     },
     async routeTo(page) {
+      // Check password
+      console.log(this.$root.currentRoute)
+      if (this.$root.currentRoute === '/') {
+        if (!this.$props.password) {
+          this.error = 'Helaas, dat klopt niet!'
+          return
+        } else {
+          const password = this.$props.password.trim().toLowerCase()
+          const valid = await bcrypt.compare(password, '$2a$10$Nk5DufmrYiE4gPSup65Ms..W7350gtL6TGFMbuxnamEXGgar3MJJq')
+          if (!valid) {
+            this.error = 'Helaas, dat klopt niet!'
+            return
+          }
+        }
+      }
       if (!this.$props.adults || page !== '/thanks') {
         this.$root.currentRoute = page
       } else {

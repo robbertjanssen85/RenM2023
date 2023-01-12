@@ -38,7 +38,7 @@
           <div class="question">
             <p class="label"><b>Waar zijn jullie bij?</b></p>
           </div>
-          <div v-if="this.$root.query.invite === 'D'">
+          <div v-if="dayGuest">
             <div class="toggle-group">
               <p>15:30 - 20:30&nbsp;&nbsp;&nbsp;Ceremonie en aansluitende borrel + diner</p>
               <Toggle class="form-toggle" v-model="rsvp.attends_day" />
@@ -113,6 +113,7 @@ export default {
   },
   data() {
     return {
+      dayGuest: window.location.hostname === 'robbertenmarjolein.nl',
       adultCount: 1,
       childCount: 0,
       adults: [{

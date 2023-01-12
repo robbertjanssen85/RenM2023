@@ -1,9 +1,10 @@
 <template>
-  <div v-if="invite" class="container">
+  <div class="container">
     <Profile image="1" />
     <Card
       title="Welkom!"
       :button="button"
+      :password="password"
     >
       <div>
         <p>
@@ -12,9 +13,10 @@
         </p>
         <p>
           Omdat het al 2023 is krijg je alle informatie en deze uitnodiging
-          digitaal. We hebben een paar vragen voor je, maar eerst het programma!
+          digitaal. Om project X te voorkomen, hebben we eerst deze vraag voor je:
         </p>
-        <p>Marjolein &amp; Robbert</p>
+        <p>Waar wonen Robbert & Marjolein?</p>
+        <input name="password" type="password" v-model="password" />
       </div>
     </Card>
   </div>
@@ -36,9 +38,9 @@ export default {
   },
   data() {
     return {
-      invite: this.$root.query.invite, // To make the page crash without query param
+      password: null,
       button: {
-        title: 'Bekijk het programma',
+        title: 'Beantwoorden',
         page: '/program'
       }
     }
