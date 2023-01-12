@@ -70,7 +70,7 @@
               </label>
               <label>
                 <div><input type="radio" name="sleeping" value="tent-interesse" v-model="rsvp.sleeping"></div>
-                <span>Ja, wij slapen graag in een tentje</span>
+                <span>Ja, wij slapen graag in een tentje bij de Vreemde Vogel</span>
               </label>
               <label>
                 <div><input type="radio" name="sleeping" value="zelf-regelen" v-model="rsvp.sleeping"></div>

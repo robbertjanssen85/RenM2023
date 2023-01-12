@@ -13,7 +13,7 @@
         </p>
         <p>
           Omdat het al 2023 is krijg je alle informatie en deze uitnodiging
-          digitaal. Je vindt hier info over het programmam, de locatie, overnachtingsmogelijkheden en de mogelijkheid om te RSVP'en. 
+          digitaal. Je vindt hier info over het programma, de locatie, overnachtingen en de mogelijkheid om te RSVP'en. 
         </p>
         <p>
           Marjolein en Robbert
