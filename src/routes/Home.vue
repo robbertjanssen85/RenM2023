@@ -13,9 +13,15 @@
         </p>
         <p>
           Omdat het al 2023 is krijg je alle informatie en deze uitnodiging
-          digitaal. Om project X te voorkomen, hebben we eerst deze vraag voor je:
+          digitaal. Op deze site vind je info over het programmam, de locatie en de mogelijkheid om te RSVP'en. 
         </p>
-        <p>Waar wonen Robbert & Marjolein?</p>
+        <p>
+          Marjolein en Robbert
+        </p>
+        <p>
+          Om Project X te voorkomen, hebben we eerst deze vraag voor je:   
+        </p>
+        <p>In welke plaats wonen we?</p>
         <input name="password" type="password" v-model="password" />
       </div>
     </Card>
