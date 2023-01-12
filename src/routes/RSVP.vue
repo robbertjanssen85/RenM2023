@@ -65,19 +65,19 @@
             <p><b>Blijf je overnachten?</b></p>
             <div class="radio-button-group">
               <label>
-                <input type="radio" name="sleeping" value="vv-hotel-interesse" v-model="rsvp.sleeping">
+                <div><input type="radio" name="sleeping" value="vv-hotel-interesse" v-model="rsvp.sleeping"></div>
                 <span>Ja, wij hebben interesse in een slaapplek op het terrein van de Vreemde Vogel of het nabije Ibis hotel</span>
               </label>
               <label>
-                <input type="radio" name="sleeping" value="tent-interesse" v-model="rsvp.sleeping">
+                <div><input type="radio" name="sleeping" value="tent-interesse" v-model="rsvp.sleeping"></div>
                 <span>Ja, wij slapen graag in een tentje</span>
               </label>
               <label>
-                <input type="radio" name="sleeping" value="zelf-regelen" v-model="rsvp.sleeping">
+                <div><input type="radio" name="sleeping" value="zelf-regelen" v-model="rsvp.sleeping"></div>
                 <span>Ja, maar ik regel zelf een andere slaapplek</span>
               </label>
               <label>
-                <input type="radio" name="sleeping" value="nee" v-model="rsvp.sleeping">
+                <div><input type="radio" name="sleeping" value="nee" v-model="rsvp.sleeping"></div>
                 <span>Nee</span>
               </label>
             </div>
