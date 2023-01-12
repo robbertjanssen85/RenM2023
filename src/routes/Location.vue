@@ -18,10 +18,10 @@
           We zijn al jaren fan van de locatie. We hebben er geregeld gelunched en de kinderen kunnen er lekker spelen in de speeltuin en naar de boerderijbeesten kijken. 
         </p>
         <p>
-          De Vreemde Vogel is ook een buitenhotel met 10 bijzondere kamers zoals vogelhuisjes, een raket en sleurhutten op hoogte. En voor de avonturiers: 10 mensen kunnen ook lekker kamperen in een tentje - pure festival vibes!
+          De Vreemde Vogel is ook een buitenhotel met 10 bijzondere kamers zoals vogelhuisjes, een raket en struisvogels. En voor de avonturiers: 10 mensen kunnen ook lekker kamperen in een tentje - pure festival vibes!
         </p>
         <p>
-          Tijdens de registratie kun je aangeven of je interesse hebt in een overnachting. Naast het Buitenhotel van de Vreemde Vogel kun je ook terecht met een 'package-deal' bij <a href="https://all.accor.com/hotel/1195/index.nl.shtml" target="_blank">Ibis Rotterdam-Vlaardingen</a>.
+          Tijdens de registratie kun je aangeven of je interesse hebt in een overnachting. Wij verzamelen dat en kijken wat er mogelijk is in het Buitenhotel van de Vreemde Vogel en het nabije <a href="https://all.accor.com/hotel/1195/index.nl.shtml" target="_blank">Ibis Rotterdam-Vlaardingen</a>.
         </p>
         <p>
           <img class="image" src="@/assets/VV4.jpg" alt="Vreemde Vogel"/>
@@ -37,8 +37,10 @@
         </p>
         <p>
           Kom je met het OV dan staat je enigszins een uitdaging te wachten. Er stopt een metro op loopafstand bij Vlaardingen-West. 
+          <p>
           Treinstations zitten helaas niet in de buurt. Een OV-fiets vanaf Rotterdam Centraal is een prima workout of vraag iemand om je op te halen, vanaf hier:<br>
           <a href="https://goo.gl/maps/afSPWoYxyGSuRtxA6" target="_blank">Rotterdam Centraal<br>(Google Maps)</a>
+          </p>
         </p>
       </div>
     </Card>
