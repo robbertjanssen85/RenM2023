@@ -17,16 +17,15 @@
         <p>
           We zijn al jaren fan van de locatie. We hebben er geregeld gelunched en de kinderen kunnen er lekker spelen in de speeltuin en naar de boerderijbeesten kijken. 
         </p>
-        <p>
-          De Vreemde Vogel is ook een buitenhotel met 10 kamers zoals vogelhuisjes, een raket en struisvogels. En voor de avonturiers: 10 mensen kunnen ook lekker kamperen in een tentje - festival vibes!
-        </p>
-        <p>
-          Tijdens de registratie kun je aangeven of je interesse hebt in een overnachting. Wij verzamelen dat en laten je weten wat er mogelijk is in het Buitenhotel van de Vreemde Vogel en het nabije <a href="https://all.accor.com/hotel/1195/index.nl.shtml" target="_blank">Ibis Rotterdam-Vlaardingen</a>.
-        </p>
+       <p>
+          Het is echt een locatie gericht op een buitenfeest, dus finger-crossed dat het lekker weer gaat zijn!
+       </p>
+       
         <p>
           <img class="image" src="@/assets/VV4.jpg" alt="Vreemde Vogel"/>
         </p>
 
+      
         <p><b>Bereikbaarbaarheid De Vreemde Vogel</b></p>
         
         
@@ -42,6 +41,24 @@
           <a href="https://goo.gl/maps/afSPWoYxyGSuRtxA6" target="_blank">Rotterdam Centraal<br>(Google Maps)</a>
           </p>
         </p>
+        <p><b>Overnachten</b></p>
+        <p>
+          
+        </p>
+        <p>
+          De bereikbaarheid wordt een stuk beter als je gezellig blijft overnachten! En dan zorgen wij voor een lekker gezamenlijk ontbijt de volgende ochtend. 
+        </p>
+          <p>De Vreemde Vogel is een buitenhotel met 10 bijzondere kamers zoals vogelhuisjes, een raket en struisvogels. 
+          <br>En voor de avonturiers: er is ook ruimte om een tentje op te zetten op het gras. Voor een kampvuur wordt gezorgd dus: pure festival vibes!
+        </p>
+        <p>
+          Tijdens de registratie kun je aangeven of je interesse hebt in een overnachting. Wij verzamelen dat en laten je weten wat er mogelijk is in het Buitenhotel van de Vreemde Vogel en het nabije <a href="https://all.accor.com/hotel/1195/index.nl.shtml" target="_blank">Ibis Rotterdam-Vlaardingen</a>.
+        </p>
+
+        <p>
+        <img class="image" src="@/assets/VV5.jpg" alt="Vreemde Vogel Buitenhotel"/>
+        </p>
+
       </div>
     </Card>
   </div>

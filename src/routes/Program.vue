@@ -65,7 +65,7 @@ export default {
           time: '15:00',
           text: 'Ontvangst',
           info: 'Vanaf dit tijdstip ben je welkom op de trouwlocatie. Als je wilt ' +
-                'blijven kamperen dan is dit een goed moment om je tentje op te zetten.'
+                'blijven slapen is dit een goed moment om je tentje op te zetten of in te checken in je hotelkamer.'
         }, {
           time: '15:30 - 16:30',
           text: 'Ceremonie'
