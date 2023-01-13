@@ -46,7 +46,7 @@
           
         </p>
         <p>
-          De bereikbaarheid wordt een stuk beter als je gezellig blijft overnachten! En dan zorgen wij voor een lekker ontbijtje de volgende ochtend. 
+          De bereikbaarheid en feestfactor (!) wordt een stuk beter als je gezellig blijft overnachten! En dan zorgen wij voor een lekker ontbijtje de volgende ochtend. 
         </p>
           <p>De Vreemde Vogel is een <a href="https://www.devreemdevogel.nl/buitenhotel/" target="_blank">buitenhotel</a> met 10 bijzondere kamers zoals vogelhuisjes, pipowagens, een raket en struisvogels. 
           <br>En voor de avonturiers: er is ook ruimte om een tentje op te zetten op het gras. Voor een kampvuur wordt gezorgd dus: pure festival vibes!
