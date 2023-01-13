@@ -18,7 +18,7 @@
           We zijn al jaren fan van de locatie. We hebben er geregeld gelunched en de kinderen kunnen er lekker spelen in de speeltuin en naar de boerderijbeesten kijken. 
         </p>
        <p>
-          Het is echt een locatie gericht op een buitenfeest, dus finger-crossed dat het lekker weer gaat zijn!
+          Het is echt een locatie gericht op een buitenfeest, dus fingers-crossed dat het zonnetje schijnt!
        </p>
        
         <p>
