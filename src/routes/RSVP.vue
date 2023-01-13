@@ -66,7 +66,7 @@
             <div class="radio-button-group">
               <label>
                 <div><input type="radio" name="sleeping" value="vv-hotel-interesse" v-model="rsvp.sleeping"></div>
-                <span>Ja, wij hebben interesse in een slaapplek op het terrein van de Vreemde Vogel of het nabije Ibis hotel</span>
+                <span>Ja, wij hebben interesse in een slaapplek op het buitenhotel van de Vreemde Vogel of het nabije Ibis hotel</span>
               </label>
               <label>
                 <div><input type="radio" name="sleeping" value="tent-interesse" v-model="rsvp.sleeping"></div>

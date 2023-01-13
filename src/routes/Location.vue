@@ -37,7 +37,7 @@
         <p>
           Kom je met het OV dan staat je enigszins een uitdaging te wachten. Er stopt een metro op loopafstand bij Vlaardingen-West. 
           <p>
-          Treinstations zitten helaas niet in de buurt. Een OV-fiets vanaf Rotterdam Centraal is een prima workout of vraag iemand om je op te halen, vanaf hier:<br>
+          Treinstations zitten niet echt in de buurt. Een OV-fiets vanaf Rotterdam Centraal of Schiedam Centrum is een prima workout of vraag iemand om je op te halen, bijvoorbeeld vanaf:<br>
           <a href="https://goo.gl/maps/afSPWoYxyGSuRtxA6" target="_blank">Rotterdam Centraal<br>(Google Maps)</a>
           </p>
         </p>
@@ -46,9 +46,9 @@
           
         </p>
         <p>
-          De bereikbaarheid wordt een stuk beter als je gezellig blijft overnachten! En dan zorgen wij voor een lekker gezamenlijk ontbijt de volgende ochtend. 
+          De bereikbaarheid wordt een stuk beter als je gezellig blijft overnachten! En dan zorgen wij voor een lekker ontbijtje de volgende ochtend. 
         </p>
-          <p>De Vreemde Vogel is een buitenhotel met 10 bijzondere kamers zoals vogelhuisjes, een raket en struisvogels. 
+          <p>De Vreemde Vogel is een <a href="https://www.devreemdevogel.nl/buitenhotel/" target="_blank">buitenhotel</a> met 10 bijzondere kamers zoals vogelhuisjes, pipowagens, een raket en struisvogels. 
           <br>En voor de avonturiers: er is ook ruimte om een tentje op te zetten op het gras. Voor een kampvuur wordt gezorgd dus: pure festival vibes!
         </p>
         <p>
