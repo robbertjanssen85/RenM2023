@@ -40,12 +40,10 @@
           Je kunt ons natuurlijk altijd bellen, app'en of mailen naar <a href="mailto:robbert.en.marjolein@gmail.com">robbert.en.marjolein@gmail.com</a>.
         </p>
         <p>
-          Mocht je iets geheimzinnigs of een verrassing voor ons willen organiseren, dan kun je daarvoor even contact opnemen met Marjoleine of Leanne.  
+          Mocht je iets geheimzinnigs of een verrassing voor ons willen organiseren, dan kun je daarvoor even contact opnemen met Marjoleine:  
         </p>
-
           <ul>
             <li>Marjoleine 't Hart:<br><a href="tel:0610921148">06 10 92 11 48</a><br><a href="mailto:marjoleinethart@gmail.com">marjoleinethart@gmail.com</a></li>
-            <li>Leanne Janssen:<br><a href="tel:0620722699">06 20 72 26 99</a><br><a href="mailto:leannejanssen@hotmail.com">leannejanssen@hotmail.com</a></li>
           </ul>
         </p>
       </div>
@@ -88,7 +86,8 @@ export default {
         }, {
           time: '20:30 - 00:30',
           text: 'Feest',
-          info: 'Superleuk als je een speech wilt geven, een verhaal wilt vertellen, ' +
+          info: 'Een dansje en een drankje! Feest gezellig met ons mee. Met een optreden de leukste feestband uit Rotterdam en omstreken.' + 
+                'Superleuk als je iets in het programma wil doen - iets muzikaals, een verhaal wilt vertellen, ' +
                 'of wat dan ook, het past vast ergens in het programma. Neem hierover ' +
                 'even contact op - zie hieronder!'
         }
@@ -96,9 +95,10 @@ export default {
       evening: [{
         time: '20:30 - 00:30',
         text: 'Feest',
-        info: 'Superleuk als je een speech wilt geven, een verhaal wilt vertellen, ' +
-              'of wat dan ook, het past vast ergens in het programma. Neem hierover ' +
-              'even contact op met ons of onze feestmeesters!'
+        info: 'Een dansje en een drankje! Feest gezellig met ons mee. Met een optreden de leukste feestband uit Rotterdam en omstreken.' + 
+                'Superleuk als je iets in het programma wil doen - iets muzikaals, een verhaal wilt vertellen, ' +
+                'of wat dan ook, het past vast ergens in het programma. Neem hierover ' +
+                'even contact op - zie hieronder!'
       }],
       button: {
         title: 'Bekijk de locatie',
