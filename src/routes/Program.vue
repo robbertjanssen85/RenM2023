@@ -31,8 +31,15 @@
           <span class="time">09:30 - 11:00</span>
           <span class="text">Ontbijt met verse jus, veel koffie en hopelijk croissantjes</span>
         </div>
+        <b>Contact?</b> 
+        <p>We zijn onze eigen ceremoniemeesters en regelen zoveel mogelijk lekker zelf. + 
+          Je kunt ons natuurlijk bellen, app'en of mailen <a href="mailto:robbert.en.marjolein@gmail.com">robbert.en.marjolein@gmail.com</a>.
+        </p>
+        <p>
+          Mocht je iets geheimzinnigs of een verrassing voor ons willen organiseren, dan kun je daarvoor even contact opnemen met onze feestmeesters Marjoleine of Leanne.  
+        </p>
         <p class="more-info">
-          Dit zijn onze ceremoniemeesters:
+          Dit zijn onze feestmeesters:
           <ul>
             <li>Marjoleine 't Hart:<br><a href="tel:0610921148">06 10 92 11 48</a><br><a href="mailto:marjoleinethart@gmail.com">marjoleinethart@gmail.com</a></li>
             <li>Leanne Janssen:<br><a href="tel:0620722699">06 20 72 26 99</a><br><a href="mailto:leannejanssen@hotmail.com">leannejanssen@hotmail.com</a></li>
@@ -80,7 +87,7 @@ export default {
           text: 'Feest',
           info: 'Superleuk als je een speech wilt geven, een verhaal wilt vertellen, ' +
                 'of wat dan ook, het past vast ergens in het programma. Neem hierover ' +
-                'even contact op met de ceremoniemeesters!'
+                'even contact op met ons of onze feestmeesters!'
         }
       ],
       evening: [{
