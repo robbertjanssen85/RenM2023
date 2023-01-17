@@ -22,7 +22,7 @@
         
         <p><b>Dresscode: Festivalfrivool</b></p>
         <p>
-          Festivalfrivool oftewel: iets waarin je je vrolijk, feestelijk en op je gemak voelt. Een fleurig jurkje of een korte broek - alles beter dan een krijtstreeppak. Houd een beetje rekening met de weersvoorspellingen en dat het gras drassig kan zijn.  
+          Festivalfrivool oftewel: iets waarin je je vrolijk, feestelijk en op je gemak voelt. Een fleurig jurkje of een korte broek: allemaal prima en alles beter dan een krijtstreeppak. Houd een beetje rekening met de weersvoorspellingen en dat het gras drassig kan zijn.  
         </p>                 
         
         <p><b>Bereikbaarbaarheid De Vreemde Vogel</b></p>
