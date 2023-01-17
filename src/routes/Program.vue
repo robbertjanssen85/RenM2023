@@ -37,7 +37,7 @@
           
           <b>Ceremoniemeesters</b> 
         <p>We zijn onze eigen ceremoniemeesters en regelen zoveel mogelijk zelf.  
-          Je kunt ons natuurlijk altijd bellen, app'en of mailen naar <a href="mailto:robbert.en.marjolein@gmail.com">robbert.en.marjolein@gmail.com</a>.
+          Je kunt ons natuurlijk altijd bellen, een berichtje sturen of mailen naar <a href="mailto:robbert.en.marjolein@gmail.com">robbert.en.marjolein@gmail.com</a>.
         </p>
         <p>
           Mocht je iets geheimzinnigs of een verrassing voor ons willen organiseren, dan kun je daarvoor even contact opnemen met Marjoleine:  
@@ -72,8 +72,7 @@ export default {
         {
           time: '15:00',
           text: 'Ontvangst',
-          info: 'Vanaf dit tijdstip ben je welkom op de trouwlocatie. Als je wilt ' +
-                'blijven slapen is dit een goed moment om je tentje op te zetten of in te checken in je hotelkamer.'
+          info: 'Vanaf dit tijdstip ben je welkom op de trouwlocatie.' 
         }, {
           time: '15:30 - 16:30',
           text: 'Ceremonie'
@@ -86,20 +85,14 @@ export default {
         }, {
           time: '20:30 - 00:30',
           text: 'Feest',
-          info: 'Een dansje en een drankje! Feest gezellig met ons mee. Met een optreden de leukste feestband uit Rotterdam en omstreken.' + 
-                'Superleuk als je iets in het programma wil doen - iets muzikaals, een verhaal wilt vertellen, ' +
-                'of wat dan ook, het past vast ergens in het programma. Neem hierover ' +
-                'even contact op - zie hieronder!'
-        }
+          info: 'Een dansje en een drankje! Feest lekker met ons mee. Met een optreden van de leukste feestband uit Rotterdam en omstreken. ' + 
+         }
       ],
       evening: [{
         time: '20:30 - 00:30',
         text: 'Feest',
-        info: 'Een dansje en een drankje! Feest gezellig met ons mee. Met een optreden de leukste feestband uit Rotterdam en omstreken.' + 
-                'Superleuk als je iets in het programma wil doen - iets muzikaals, een verhaal wilt vertellen, ' +
-                'of wat dan ook, het past vast ergens in het programma. Neem hierover ' +
-                'even contact op - zie hieronder!'
-      }],
+        info: 'Een dansje en een drankje! Feest lekker met ons mee. Met een optreden van de leukste feestband uit Rotterdam en omstreken. '  
+       }],
       button: {
         title: 'Bekijk de locatie',
         page: '/location'
