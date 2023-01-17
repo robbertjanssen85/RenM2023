@@ -8,7 +8,7 @@
     >
       <div>
         
-        <br>
+        
         <p><b>De Vreemde Vogel</b></p>
         <p>
           Het gehele programma inclusief de ceremonie vindt plaats bij de Vreemde Vogel in Vlaardingen.
@@ -20,11 +20,11 @@
           <img class="image" src="@/assets/VV4.jpg" alt="Vreemde Vogel"/>
         </p>
         
-        <p><b>Dresscode</b></p>
-       <p>
-          De 'dresscode' is Festivalfrivool, oftewel: iets waarin je je vrolijk, comfortabel en feestelijk voelt. Een fleurig jurkje of een korte broek - alles beter dan een krijtstreeppak. Houd een beetje rekening met de weersvoorspellingen en dat het gras drassig zou kunnen zijn.  
-       </p>
-                       
+        <p><b>Dresscode: Festivalfrivool</b></p>
+        <p>
+          Festivalfrivool oftewel: iets waarin je je vrolijk, feestelijk en op je gemak voelt. Een fleurig jurkje of een korte broek - alles beter dan een krijtstreeppak. Houd een beetje rekening met de weersvoorspellingen en dat het gras drassig kan zijn.  
+        </p>                 
+        
         <p><b>Bereikbaarbaarheid De Vreemde Vogel</b></p>
                       
         <p>
