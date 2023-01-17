@@ -16,7 +16,7 @@
         <p>
           Bij mooi weer is een groot deel van het programma lekker buiten. De kinderen kunnen er fijn spelen in de speeltuin en naar de boerderijbeesten kijken. 
         </p>
-        <br>
+        
         <p><b>Dresscode</b></p>
        <p>
           De 'dresscode' is Festivalfrivool, oftewel: iets waarin je je vrolijk, comfortabel en feestelijk voelt. Een fleurig jurkje of een korte broek - alles beter dan een krijtstreeppak. Houd een beetje rekening met de weersvoorspellingen en dat het gras drassig zou kunnen zijn.  
@@ -26,7 +26,7 @@
           <img class="image" src="@/assets/VV4.jpg" alt="Vreemde Vogel"/>
         </p>
 
-        <br>
+        
         <p><b>Bereikbaarbaarheid De Vreemde Vogel</b></p>
         
         
@@ -36,13 +36,13 @@
           <a href="https://goo.gl/maps/eTCoMwNnuz9fpZpH8" target="_blank">Van Baerlestraat 252, 3132 EK Vlaardingen<br>(Google Maps)</a><br>
         </p>
         <p>
-          Kom je met het OV dan staat je enigszins een uitdaging te wachten. Er stopt een metro op loopafstand bij Vlaardingen-West. 
+          Kom je met het OV, dan kun je met de metro reizen naar station Vlaardingen-West op 10 minuten lopen van de Vreemde Vogel. De metro rijdt tot ruim na middernacht terug naar Rotterdam Centraal. 
+          <<a href="https://goo.gl/maps/ga7MTwJG2oKEPAv88" target="_blank">Vlaardingen-West<br>(Google Maps)</a><br>
           <p>
-          Treinstations zitten niet echt in de buurt. Een OV-fiets vanaf Rotterdam Centraal of Schiedam Centrum is een prima workout of vraag iemand om je op te halen, bijvoorbeeld vanaf:<br>
-          <a href="https://goo.gl/maps/afSPWoYxyGSuRtxA6" target="_blank">Rotterdam Centraal<br>(Google Maps)</a>
+          Treinstations zitten niet echt in de buurt. Een OV-fiets vanaf Rotterdam Centraal of Schiedam Centrum is een prima workout of vraag iemand om je op te halen.          
           </p>
         </p>
-        <br>
+        
         <p><b>Overnachten</b></p>
         <p>
           

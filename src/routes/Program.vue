@@ -72,7 +72,7 @@ export default {
         {
           time: '15:00',
           text: 'Ontvangst',
-          info: 'Vanaf dit tijdstip ben je welkom op de trouwlocatie. Als je wilt overnachten kun je uiteraard eerder komen om in te checken in het hotel of je tentje op te zetten.'
+          info: 'Vanaf dit tijdstip ben je welkom op de trouwlocatie. Als je wil overnachten kun je uiteraard eerder komen om in te checken in het hotel of je tentje op te zetten.'
            
         }, {
           time: '15:30 - 16:30',
