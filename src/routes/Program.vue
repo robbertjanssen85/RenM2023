@@ -72,7 +72,8 @@ export default {
         {
           time: '15:00',
           text: 'Ontvangst',
-          info: 'Vanaf dit tijdstip ben je welkom op de trouwlocatie.' 
+          info: 'Vanaf dit tijdstip ben je welkom op de trouwlocatie. Als je wilt overnachten kun je uiteraard eerder komen om in te checken in het hotel of je tentje op te zetten.'
+           
         }, {
           time: '15:30 - 16:30',
           text: 'Ceremonie'
@@ -85,13 +86,13 @@ export default {
         }, {
           time: '20:30 - 00:30',
           text: 'Feest',
-          info: 'Een dansje en een drankje! Feest lekker met ons mee. Met een optreden van de leukste feestband uit Rotterdam en omstreken. ' + 
+          info: 'Een dansje en een drankje! Feest lekker met ons mee. Met een optreden van de leukste feestband uit Rotterdam en omstreken.'  
          }
       ],
       evening: [{
         time: '20:30 - 00:30',
         text: 'Feest',
-        info: 'Een dansje en een drankje! Feest lekker met ons mee. Met een optreden van de leukste feestband uit Rotterdam en omstreken. '  
+        info: 'Een dansje en een drankje! Feest lekker met ons mee. Met een optreden van de leukste feestband uit Rotterdam en omstreken.'  
        }],
       button: {
         title: 'Bekijk de locatie',

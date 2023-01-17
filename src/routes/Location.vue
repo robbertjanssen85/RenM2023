@@ -7,25 +7,26 @@
       :prevButton="prevButton"
     >
       <div>
-        <p>
-          We gaan trouwen bij de Vreemde Vogel in Vlaardingen.
-        </p>
+        
+        <br>
         <p><b>De Vreemde Vogel</b></p>
         <p>
-          Het gehele programma inclusief de ceremonie vindt plaats bij De Vreemde Vogel!
+          Het gehele programma inclusief de ceremonie vindt plaats bij de Vreemde Vogel in Vlaardingen.
         </p>
         <p>
-          We zijn al jaren fan van de locatie. We hebben er geregeld gelunched en de kinderen kunnen er lekker spelen in de speeltuin en naar de boerderijbeesten kijken. 
+          Bij mooi weer is een groot deel van het programma lekker buiten. De kinderen kunnen er fijn spelen in de speeltuin en naar de boerderijbeesten kijken. 
         </p>
+        <br>
+        <p><b>Dresscode</b></p>
        <p>
-          Het is echt een locatie gericht op een buitenfeest, dus fingers-crossed dat het zonnetje schijnt!
+          De 'dresscode' is Festivalfrivool, oftewel: iets waarin je je vrolijk, comfortabel en feestelijk voelt. Een fleurig jurkje of een korte broek - alles beter dan een krijtstreeppak. Houd een beetje rekening met de weersvoorspellingen en dat het gras drassig zou kunnen zijn.  
        </p>
        
         <p>
           <img class="image" src="@/assets/VV4.jpg" alt="Vreemde Vogel"/>
         </p>
 
-      
+        <br>
         <p><b>Bereikbaarbaarheid De Vreemde Vogel</b></p>
         
         
@@ -41,6 +42,7 @@
           <a href="https://goo.gl/maps/afSPWoYxyGSuRtxA6" target="_blank">Rotterdam Centraal<br>(Google Maps)</a>
           </p>
         </p>
+        <br>
         <p><b>Overnachten</b></p>
         <p>
           
