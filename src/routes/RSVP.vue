@@ -86,7 +86,7 @@
         </div>
 
         <div>
-          <p><b>Heb je nog vragen of opmerkingen?</b></p>
+          <p><b>Heb je nog vragen of opmerkingen? Een verzoeknummertje mag ook!</b></p>
           <textarea rows="6" v-model="questions"></textarea>
         </div>
       </div>
