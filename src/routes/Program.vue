@@ -77,12 +77,15 @@ export default {
         }, {
           time: '15:30 - 16:30',
           text: 'Ceremonie'
+          info: 'Zou er nog iemand bezwaar maken? Met een beetje mazzel wordt er "Ja" gezegd!'  
         }, {
           time: '16:30 - 18:30',
           text: 'Borrel'
+          info: 'Proost met ons op de liefde. Geniet van een hapje en een drankje en terg jezelf vooral niet door in een rij te gaan staan. Wij lopen een rondje om jullie allemaal te begroeten. De kinderen kunnen fikkie stoken en voor de grote mensen zijn er spelletjes en muziek van Ori.'  
         }, {
           time: '18:30 - 20:30',
           text: 'Diner'
+          info: 'Het diner is in festivalstijl met verschillende foodstands met voor ieder wat wils en een taartje toe.' 
         }, {
           time: '20:30 - 00:30',
           text: 'Feest',
