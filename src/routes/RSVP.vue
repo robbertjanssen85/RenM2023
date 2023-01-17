@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <Profile image="15" />
+    <Profile image="21" />
     <Card
       title="RSVP"
       :button="button"
@@ -36,7 +36,7 @@
         </div>
         <div>
           <div class="question">
-            <p class="label"><b>Waar zijn jullie bij?</b></p>
+            <p class="label"><b>Waar ben je bij?</b></p>
           </div>
           <div v-if="dayGuest">
             <div class="toggle-group">
@@ -66,11 +66,11 @@
             <div class="radio-button-group">
               <label>
                 <div><input type="radio" name="sleeping" value="vv-hotel-interesse" v-model="rsvp.sleeping"></div>
-                <span>Ja, wij hebben interesse in een slaapplek in het buitenhotel van de Vreemde Vogel of het nabije Ibis hotel</span>
+                <span>Ja, ik heb interesse in een slaapplek in het buitenhotel van de Vreemde Vogel of het nabije Ibis hotel</span>
               </label>
               <label>
                 <div><input type="radio" name="sleeping" value="tent-interesse" v-model="rsvp.sleeping"></div>
-                <span>Ja, wij slapen graag in een tentje bij de Vreemde Vogel</span>
+                <span>Ja, graag in een tentje bij de Vreemde Vogel</span>
               </label>
               <label>
                 <div><input type="radio" name="sleeping" value="zelf-regelen" v-model="rsvp.sleeping"></div>

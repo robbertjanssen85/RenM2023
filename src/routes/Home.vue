@@ -8,19 +8,21 @@
     >
       <div>
         <p>
-          Op <b>26 mei 2023</b> gaan wij trouwen, en we willen graag dat
+          Op <b>26 mei 2023</b> gaan wij trouwen en we willen graag dat
           jullie erbij zijn!
         </p>
         <p>
-          Omdat het al 2023 is krijg je alle informatie en deze uitnodiging
-          digitaal. Je vindt hier info over het programma, de locatie, overnachtingen en de mogelijkheid om te RSVP'en. 
+          Hier vind je alle informatie over het programma, de locatie, overnachtingen en de mogelijkheid om te RSVP'en. 
+        </p>
+        <p>
+          Wij hebben er alvast zin in en kijken er naar uit met jullie een feestje te vieren!
         </p>
         <p>
           Marjolein en Robbert
         </p>
         <br>
         <p>
-          Om Project X te voorkomen, hebben we eerst deze vraag voor je:   
+          Om Project X te voorkomen hebben we eerst deze vraag voor je:   
         </p>
         <p>In welke plaats wonen we?</p>
         <input name="password" type="password" v-model="password" />
