@@ -50,7 +50,7 @@
               <Toggle class="form-toggle" v-model="rsvp.attends_party" />
             </div>
             <div class="toggle-group">
-              <p>10:00 - 11:00&nbsp;&nbsp;&nbsp;Gezamelijk ontbijt de volgende dag</p>
+              <p>09:30 - 11:00&nbsp;&nbsp;&nbsp;Gezamelijk ontbijt de volgende dag</p>
               <Toggle class="form-toggle" v-model="rsvp.attends_breakfast" />
             </div>
           </div>
