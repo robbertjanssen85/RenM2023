@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <Profile image="2" />
+    <Profile image="7" />
     <Card
       title="Programma"
       :button="button"
@@ -81,11 +81,11 @@ export default {
         }, {
           time: '16:30 - 18:30',
           text: 'Borrel',
-          info: 'Proost met ons op de liefde. Geniet van een hapje en een drankje en terg jezelf vooral niet door in een rij te gaan staan. Wij lopen een rondje om jullie allemaal te begroeten. De kinderen kunnen fikkie stoken en voor de grote mensen zijn er spelletjes en muziek van Ori.'  
+          info: 'Proost met ons, geniet van een hapje en een drankje en terg jezelf vooral niet door in een rij te gaan staan. Wij lopen een rondje om jullie allemaal te begroeten. De kinderen kunnen fikkie stoken en voor de grote mensen zijn er spelletjes en muziek van Ori.'  
         }, {
           time: '18:30 - 20:30',
           text: 'Diner',
-          info: 'Het diner is in festivalstijl. Woke en hipster-proof zonder dode dieren en met een taartje toe.' 
+          info: 'Het diner is in festivalstijl. Woke en hipster-proof zonder dode dieren en met een taartje toe!' 
         }, {
           time: '20:30 - 00:30',
           text: 'Feest',

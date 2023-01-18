@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <Profile image="7" />
+    <Profile image="2" />
     <Card
       title="RSVP"
       :button="button"
