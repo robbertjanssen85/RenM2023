@@ -113,7 +113,7 @@ export default {
   },
   data() {
     return {
-      dayGuest: window.location.hostname === 'robbertenmarjolein.nl',
+      dayGuest: window.location.hostname === 'marjoleinenrobbert.nl',
       adultCount: 1,
       childCount: 0,
       adults: [{

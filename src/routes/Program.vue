@@ -67,7 +67,7 @@ export default {
   },
   data() {
     return {
-      dayGuest: window.location.hostname === 'robbertenmarjolein.nl',
+      dayGuest: window.location.hostname === 'marjoleinenrobbert.nl',
       day: [
         {
           time: '15:00',
