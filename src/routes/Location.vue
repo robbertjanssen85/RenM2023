@@ -19,12 +19,7 @@
         <p>
           <img class="image" src="@/assets/VV4.jpg" alt="Vreemde Vogel"/>
         </p>
-        
-        <p><b>Dresscode: Festivalfrivool</b></p>
-        <p>
-          Festivalfrivool oftewel: iets waarin je je vrolijk, feestelijk en op je gemak voelt. Een fleurig jurkje of een korte broek: allemaal prima en alles beter dan een krijtstreeppak. Houd een beetje rekening met de weersvoorspellingen en dat het gras drassig kan zijn.  
-        </p>                 
-        
+
         <p><b>Bereikbaarbaarheid De Vreemde Vogel</b></p>
                       
         <p>
@@ -52,11 +47,11 @@
         <p>
           Tijdens de registratie kun je aangeven of je interesse hebt in een overnachting. Wij verzamelen dat en laten je weten wat er mogelijk is in het buitenhotel van de Vreemde Vogel en het nabije <a href="https://all.accor.com/hotel/1195/index.nl.shtml" target="_blank">Ibis Rotterdam-Vlaardingen</a>.
         </p>
-
+             
         <p>
         <img class="image" src="@/assets/VV5.jpg" alt="Vreemde Vogel Buitenhotel"/>
         </p>
-
+      
       </div>
     </Card>
   </div>

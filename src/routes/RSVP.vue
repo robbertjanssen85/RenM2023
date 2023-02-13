@@ -89,6 +89,8 @@
           <p><b>Heb je nog vragen of opmerkingen? Een verzoeknummertje mag ook!</b></p>
           <textarea rows="6" v-model="questions"></textarea>
         </div>
+          
+          <p><i>(Kun je niet komen, meld het dan even in het opmerkingenveld samen met je naam en klik op Opsturen. Bedankt!)</i></p>
       </div>
     </Card>
   </div>

@@ -37,15 +37,37 @@
           
           <b>Ceremoniemeesters</b> 
         <p>We zijn onze eigen ceremoniemeesters en regelen zoveel mogelijk zelf.  
-          Je kunt ons natuurlijk altijd bellen, een berichtje sturen of mailen naar <a href="mailto:robbert.en.marjolein@gmail.com">robbert.en.marjolein@gmail.com</a>.
+          Je kunt ons natuurlijk altijd bellen, een berichtje sturen of mailen.
         </p>
+       <p>
+        <ul>
+            <li>Marjolein<br><a href="tel:0620556147">06 20 55 61 47</a><br><a href="mailto:robbert.en.marjolein@gmail.com">robbert.en.marjolein@gmail.com</a></li>
+            <li>Robbert<br><a href="tel:0620275272">06 20 27 52 72</a><br><a href="mailto:robbert.en.marjolein@gmail.com">robbert.en.marjolein@gmail.com</a></li>
+          </ul>
+       </p>
         <p>
           Mocht je iets geheimzinnigs of een verrassing voor ons willen organiseren, dan kun je daarvoor even contact opnemen met Marjoleine:  
         </p>
-          <ul>
+        <ul>
             <li>Marjoleine 't Hart:<br><a href="tel:0610921148">06 10 92 11 48</a><br><a href="mailto:marjoleinethart@gmail.com">marjoleinethart@gmail.com</a></li>
           </ul>
+        
+        <br>
+        <p><b>Dresscode: Festivalfrivool</b></p>
+        <p>
+          Festivalfrivool oftewel: iets waarin je je vrolijk, feestelijk en op je gemak voelt. Een fleurig jurkje of een korte broek: allemaal prima en alles beter dan een krijtstreeppak. Houd een beetje rekening met de weersvoorspellingen en dat het gras drassig kan zijn.  
+        </p>  
+        
+        <p><b>Cadeauwensen</b></p>
+        <p>
+          We willen vooral graag een feestje met jullie vieren - dus jullie aanwezigheid is het belangrijkste. En verder hebben we genoeg vinkjes en geluk gehad in het leven om geen verdere wensen meer te hebben.
+          Mocht je graag wat willen geven, dan zullen we zorgen dat er een paar dozen klaarstaan met verschillende bestemmingen om een bijdrage in te doen. 
+        </p>              
+               
+        <p>
+        <img class="image" src="@/assets/VV3.jpg" alt="Vreemde Vogel"/>
         </p>
+      </p>
       </div>
     </Card>
   </div>
@@ -81,7 +103,7 @@ export default {
         }, {
           time: '16:30 - 18:30',
           text: 'Borrel',
-          info: 'Proost met ons, geniet van een hapje en een drankje en terg jezelf vooral niet door in een rij te gaan staan. Wij lopen een rondje om jullie allemaal te begroeten. De kinderen kunnen fikkie stoken en voor de grote mensen zijn er spelletjes en muziek van Ori.'  
+          info: 'Proost met ons, geniet van een hapje en een drankje en terg jezelf vooral niet door in een rij te gaan staan. Wij lopen een rondje om jullie allemaal te begroeten. De kinderen kunnen fikkie stoken en voor de grote mensen zijn er spelletjes en muziek van akoestisch duo Ori.'  
         }, {
           time: '18:30 - 20:30',
           text: 'Diner',
@@ -89,13 +111,13 @@ export default {
         }, {
           time: '20:30 - 00:30',
           text: 'Feest',
-          info: 'Een dansje en een drankje! Feest lekker met ons mee. Met een optreden van de leukste feestband uit Rotterdam en omstreken.'  
+          info: 'Een dansje en een drankje! Feest lekker met ons mee. Met een optreden van de leukste feestband uit Rotterdam en omstreken: Rotterdam Centraal.'  
          }
       ],
       evening: [{
         time: '20:30 - 00:30',
         text: 'Feest',
-        info: 'Een dansje en een drankje! Feest lekker met ons mee. Met een optreden van de leukste feestband uit Rotterdam en omstreken.'  
+        info: 'Een dansje en een drankje! Feest lekker met ons mee. Met een optreden van de leukste feestband uit Rotterdam en omstreken: Rotterdam Centraal.'  
        }],
       button: {
         title: 'Bekijk de locatie',
@@ -145,5 +167,9 @@ ul {
   margin-left: -15px;
   text-align: left;
   list-style: disclosure-closed;
+}
+.image {
+  max-width: 100%;
+  border-radius: 10px;
 }
 </style>
