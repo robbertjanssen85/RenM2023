@@ -28,7 +28,7 @@
         </div>
         <p class="label">27 mei 2023</p>
         <div class="item">
-          <span class="time">09:30 - 11:00</span>
+          <span class="time">09:00 - 10:00</span>
           <span class="text">Ontbijt met verse jus, veel koffie en hopelijk croissantjes</span>
         </div>
         <br>
