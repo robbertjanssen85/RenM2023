@@ -69,10 +69,6 @@
                 <span>Ja, ik heb interesse in een slaapplek in het buitenhotel van de Vreemde Vogel of het nabije Ibis hotel</span>
               </label>
               <label>
-                <div><input type="radio" name="sleeping" value="tent-interesse" v-model="rsvp.sleeping"></div>
-                <span>Ja, graag in een tentje bij de Vreemde Vogel</span>
-              </label>
-              <label>
                 <div><input type="radio" name="sleeping" value="zelf-regelen" v-model="rsvp.sleeping"></div>
                 <span>Ja, maar ik regel zelf een andere slaapplek</span>
               </label>
